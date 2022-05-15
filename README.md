@@ -7,7 +7,7 @@ Este repositório contém o código da Inteligência Artificial. Que tem o Objet
 
 - [Python](https://www.python.org/)
 - [Jupyter Notebook](https://jupyter.org/)
-### Blibliotecas 
+# Blibliotecas 
 
 - [Pandas](https://pandas.pydata.org/)
 - [Matplotlib](https://matplotlib.org/)
@@ -15,7 +15,9 @@ Este repositório contém o código da Inteligência Artificial. Que tem o Objet
 -[Statsmodel](https://www.statsmodels.org/stable/index.html)
 
 
-### [AutoCorrelação](https://github.com/Oraculum-Fatec/api-previsao-de-indisponibilidade-sites/blob/main/AutoCorrelacao.ipynb)
-### [Time Series](https://github.com/Oraculum-Fatec/api-previsao-de-indisponibilidade-sites/blob/main/Time_Serires.ipynb)
-### [Time Query](https://github.com/Oraculum-Fatec/api-previsao-de-indisponibilidade-sites/blob/main/time_query.py)
+# [AutoCorrelação](https://github.com/Oraculum-Fatec/api-previsao-de-indisponibilidade-sites/blob/main/AutoCorrelacao.ipynb)
+
+#[Time Series](https://github.com/Oraculum-Fatec/api-previsao-de-indisponibilidade-sites/blob/main/Time_Serires.ipynb)
+
+# [Time Query](https://github.com/Oraculum-Fatec/api-previsao-de-indisponibilidade-sites/blob/main/time_query.py)
 
