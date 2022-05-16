@@ -17,7 +17,7 @@ Este repositório contém o código da Inteligência Artificial. Que tem o Objet
 # [AutoCorrelação](https://github.com/Oraculum-Fatec/api-previsao-de-indisponibilidade-sites/blob/main/AutoCorrelacao.ipynb)
 Neste código foi criado um modelo de AutoCorrelaçao, que identifica a relação dos Dados colhido pelo grupo. O objetivo deste código é auxiliar na escolha da Métrica para realizar a Analise e Previsão.
 
-# [Time Series](https://github.com/Oraculum-Fatec/api-previsao-de-indisponibilidade-sites/blob/main/Time_Serires.ipynb)
+# [Time Series](https://github.com/Oraculum-Fatec/api-previsao-de-indisponibilidade-sites/blob/main/Time_Series.ipynb)
 Neste código esta sendo feito uma Série Temporal, para realizar a previsão do próximo resultado do sistema teste, e assim conseguir ser feito a Analise se o sistema irá falhar ou não. 
 
 # [Time Query](https://github.com/Oraculum-Fatec/api-previsao-de-indisponibilidade-sites/blob/main/time_query.py)
