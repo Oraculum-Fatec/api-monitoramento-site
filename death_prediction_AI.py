@@ -70,7 +70,7 @@ def PromQuery():
             
             SendResults(results)
             errorFlag = 0
-            time.sleep(10)
+            time.sleep(30)
 
         except Exception as e:
             errorFlag+=1
