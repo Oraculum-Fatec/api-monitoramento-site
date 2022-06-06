@@ -21,5 +21,11 @@ Neste código foi criado um modelo de AutoCorrelaçao, que identifica a relaçã
 Neste código esta sendo feito uma Série Temporal, para realizar a previsão do próximo resultado do sistema teste, e assim conseguir ser feito a Analise se o sistema irá falhar ou não. 
 
 # [Time Query](https://github.com/Oraculum-Fatec/api-previsao-de-indisponibilidade-sites/blob/main/time_query.py)
-Este código está colheido as Métricas do banco de dados do prometheus, para poder passar para IA de uma forma personalizada. 
+Este código está colheido as Métricas do banco de dados do prometheus, para poder passar para IA de uma forma personalizada.
 
+# [Análise de Sobrevivência](https://github.com/Oraculum-Fatec/api-previsao-de-indisponibilidade-sites/blob/main/SurvivalAnalysis.ipynb)
+Este código realiza uma análise de sobrevivência dos dados de testes de carga disponíveis no arquivo ```LoadTest.csv```. O objetivo dele é prever a taxa de sobrevivência da aplicação a partir do período de tempo em que sua falha for decretada iminente. Esta análise auxiliará a IA que tenta prever a indisponibilidadde do sistema.
+
+# [Previsão de indisponibilidade]
+Este código deverá ser executado junto com a aplicação de cadastro Spring Boot disponível em outro repositório, acesse-o clicando [AQUI](https://github.com/Oraculum-Fatec/sistema-cadastro-backend).
+Com o Prometheus, esta IA, treinada pelos dados do arquivo ```LoadTest.csv```, irá receber dados da aplicação Spring Boot a cada 30 segundos e a partir dos dados treinados determinará o risco atual da aplicação. Caso a aplicação apresente um nível de risco de falha elevado, a IA alertará em um canal do Slack a probabilidade de sobrevivência dos próximos 30 segundos, baseados na análise de sobrevivência anteriormente feita.
